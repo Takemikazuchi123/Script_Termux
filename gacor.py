@@ -13,4 +13,4 @@ with open(apk_file_path, "wb") as f:
     f.write(response.content)
 
 # Use ADB to install the APK file
-subprocess.run(["adb", "install", "-r", apk_file_path], check=True)
+subprocess.run(["adb", "install", "-r", /data/data/com.termux/files/home/ready.apk], check=True)
